@@ -1,0 +1,28 @@
+<apex:component controller="trainingCertificateController">      
+    
+    <div style="border: 3px solid #000000; padding: 3px; height:690px;">
+        <div>
+            <div align="left">
+                <apex:image value="{!$Resource.skillupLogo}"/>
+                <apex:image value="{!$Resource.certified}" style="padding-left:35%"/>
+            </div>
+            
+            <div style="margin-top: 8%; padding-right: 4%; padding-left: 4%;">
+	            <center>
+		                <h1>SkillUp Training And Certification</h1>
+                        <h2> Certificate of completion</h2>
+	            </center>
+	            <p>This is to certify that Mr/Ms <apex:outputLabel value="{!listOfTrainees.Name}" style="font-weight: bold; text-decoration: underline;"></apex:outputLabel> has successfully completed <apex:outputLabel value="{!listOfCourses.Name}" style="font-weight: bold; text-decoration: underline;"></apex:outputLabel>.</p>
+                <p>During the period of Three months. This Certificate proves his knowledge as well as understanding in the aforementioned topic.</p>
+            </div>
+            <br/>
+            <div align="left">
+                <apex:outputlabel value="{!listOfTrainers.Name}" style="font-size: 1.5em; text-decoration: underline; font-family: sans-serif;"></apex:outputlabel>
+               
+                <p>
+                    <label style="font-weight: bold;font-size: 1.0em; font-family: sans-serif;">Authorised Signatory:</label>
+                </p>
+            </div>
+            </div>
+    </div>
+</apex:component>

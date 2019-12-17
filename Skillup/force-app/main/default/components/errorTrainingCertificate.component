@@ -1,0 +1,12 @@
+<apex:component controller="errorTrainingCertificateController">
+     <div style="border: 3px solid #000000; padding: 3px; height:700px;"> 
+    <div align="Center">
+        <apex:image value="{!$Resource.oops}" width="40%" height="40%"/>
+         </div>
+         <center>
+            <h1 style="text-decoration:underline;">Oops!</h1>
+		    <p>It looks like your training in {!listOfCourses.Name} is not yet complete.</p>
+			<p>Please come back once your training is over.</p>
+      </center>
+    </div>  
+</apex:component>

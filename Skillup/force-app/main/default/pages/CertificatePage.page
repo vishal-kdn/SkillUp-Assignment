@@ -1,0 +1,6 @@
+<apex:page standardController="Trainee__c" renderAs="pdf">
+    <apex:form style="background-color:#fffdd0">
+    <c:trainingCertificate rendered="{!if(Trainee__c.Course_Status__c=='Completed',true,false)}"/>
+    <c:errorTrainingCertificate rendered="{!if(Trainee__c.Course_Status__c!='Completed',true,false)}"/>
+    </apex:form>    
+</apex:page>

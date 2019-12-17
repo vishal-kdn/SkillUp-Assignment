@@ -1,0 +1,27 @@
+lightning-card{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: thick;
+}
+.Button{
+  font-size: large;
+  cursor: pointer;
+  width: 30%;
+  margin-left: 20px;
+  border: thin;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+label{
+font-size: x-large;
+}
+.InputDisplay{
+ border: solid;
+ min-height:10vh;
+ max-width: 20vw;
+ border-width: thick;
+ margin-left: 20px;
+}

@@ -1,0 +1,43 @@
+<template>
+    <lightning-card title="CASIO ms-991">
+    <div class="InputDisplay">
+       <label for="Data1">{inputValue1}</label>
+       <label>{operator}</label>
+       <label>{inputValue2}</label>
+       <label>{result}</label>
+    </div>
+       
+       <div class="Button">
+       
+           <lightning-button class="Button" label="1" value="1" click={handleClick}></lightning-button>
+           <lightning-button class="Button" label="2" value="2" click="input(2)"></lightning-button>
+           <lightning-button class="Button" label="3" value="3" click="input(3)"></lightning-button>
+           <lightning-button class="Button" label="+" value="+" click="input(+)"></lightning-button>
+       
+       </div>
+       <div class="Button">
+      
+           <lightning-button class="Button" label="4" value="4" ></lightning-button>
+           <lightning-button class="Button" label="5" value="5" ></lightning-button>
+           <lightning-button class="Button" label="6" value="6" ></lightning-button>
+           <lightning-button class="Button" label="-" value="-" ></lightning-button>
+       
+       </div>
+       <div class="Button">
+      
+           <lightning-button class="Button" label="7" value="7"></lightning-button>
+           <lightning-button class="Button" label="8" value="8"></lightning-button>
+           <lightning-button class="Button" label="9" value="9"></lightning-button>
+           <lightning-button class="Button" label="X" value="X"></lightning-button>
+       
+       </div>
+       <div class="Button">
+      
+           <lightning-button class="Button" label="C" value="C"></lightning-button>
+           <lightning-button class="Button" label="0" value="0"></lightning-button>
+           <lightning-button class="Button" label="/" value="/"></lightning-button>
+           <lightning-button class="Button" label="=" value="="></lightning-button>
+       
+       </div>
+   </lightning-card>
+</template>

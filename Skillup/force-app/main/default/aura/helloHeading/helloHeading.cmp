@@ -1,0 +1,3 @@
+<aura:component >
+    <h1 style="color:red; font-family:sans-serrif; font-size: 24px">W E L C O M E</h1>
+</aura:component>
